@@ -17,7 +17,17 @@
     </nav>
   </header>
   <main class="content">
-    {{ content }}
+    {% if page.url == "/" %}
+      {% assign parts = content | split: "</p>" %}
+      {{ parts[0] }}</p>
+      <p class="actions">
+        <a class="button primary" href="https://github.com/aristotelesbr/awesome-spinel">&#9733; Star on GitHub</a>
+        <a class="button" href="https://github.com/matz/spinel">Spinel &rarr;</a>
+      </p>
+      {% for part in parts offset: 1 %}{{ part }}{% unless forloop.last %}</p>{% endunless %}{% endfor %}
+    {% else %}
+      {{ content }}
+    {% endif %}
   </main>
   <footer class="bottom">
     Built from the <a href="https://github.com/aristotelesbr/awesome-spinel">README</a> with Jekyll on GitHub Pages. CC0.
