@@ -1,0 +1,14 @@
+title: awesome-spinel
+description: Programs, libraries and tools that run on Spinel, the Ruby AOT compiler.
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+exclude:
+  - LICENSE
+  - CONTRIBUTING.md
