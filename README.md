@@ -2,7 +2,7 @@
 
 A curated list of programs, libraries and tools that run on [Spinel](https://github.com/matz/spinel), the ahead-of-time Ruby compiler that turns Ruby source into a single native binary (or WebAssembly).
 
-If you build something with Spinel, [add it](CONTRIBUTING.md).
+If you build something with Spinel, [add it](https://github.com/aristotelesbr/awesome-spinel/blob/main/CONTRIBUTING.md).
 
 ## Contents
 
@@ -56,9 +56,8 @@ If you build something with Spinel, [add it](CONTRIBUTING.md).
 <b><a href="https://github.com/jockofcode/starlane_concordat">Starlane Concordat</a></b>: a BBS-door-style space trading sim, built with SDL on Spinel.
 </td>
 <td width="50%" valign="top">
-<b><a href="https://github.com/OriPekelman/toy">toy</a></b>: a transformer language model framework in Ruby, compiled by Spinel to native code with CUDA and Metal support. It runs real HuggingFace models (SmolLM2, Llama 3, Qwen, Mistral, Gemma 2) with output matched against PyTorch.
-<br><br>
-<b><a href="https://github.com/kazuho/regexpinel">regexpinel</a></b>: a proof-of-concept <code>Regexp</code> engine for CRuby. The VM is written in Ruby and compiled by Spinel into an allocation-free C function, then wrapped as a CRuby extension.
+<h3><a href="#official">+60</a></h3>
+<p>web frameworks, ported gems, tooling, a <a href="https://github.com/OriPekelman/toy">transformer LM framework</a>, a <a href="https://github.com/kazuho/regexpinel">Regexp engine</a>…</p>
 </td>
 </tr>
 </table>
@@ -167,4 +166,4 @@ Gems ported to Spinel and native packages for `spin`.
 
 ## License
 
-[CC0 1.0](LICENSE). To the extent possible under law, the contributors have waived all copyright to this list.
+[CC0 1.0](https://github.com/aristotelesbr/awesome-spinel/blob/main/LICENSE). To the extent possible under law, the contributors have waived all copyright to this list.
