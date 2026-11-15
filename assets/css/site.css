@@ -98,3 +98,13 @@ code { background: #ffffff14; border-radius: 6px; padding: .1em .35em; font-size
 .button:hover { text-decoration: none; background: #ffffff12; }
 .button.primary { background: var(--accent); border-color: var(--accent); color: #1a1625; }
 .button.primary:hover { background: #ffa6c5; }
+
+/* The README's centered GitHub header: the site keeps the tagline, left-aligned,
+   and drops the site link and the bracket links, which the header and buttons cover. */
+.content h1, .content h1 + p { text-align: left; }
+.content h1 + p i { font-style: normal; }
+.content p[align="center"] ~ p[align="center"] { display: none; }
+/* The README's title is an image for GitHub; the site writes it as text. */
+.content h1 picture { display: none; }
+.content h1::before { content: "Awesome "; }
+.content h1::after { content: "Spinel"; color: var(--accent); }
