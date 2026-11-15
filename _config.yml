@@ -1,5 +1,18 @@
-title: awesome-spinel
-description: Programs, libraries and tools that run on Spinel, the Ruby AOT compiler.
+title: Awesome Spinel
+description: A curated list of programs, libraries and tools that run on Spinel, the ahead-of-time Ruby compiler that turns Ruby into a single native binary or WebAssembly.
+url: https://aristotelesbr.github.io
+baseurl: /awesome-spinel
+lang: en
+tagline: Programs, libraries and tools that run on Spinel
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/og.jpg
+        width: 1200
+        height: 630
+        alt: Awesome Spinel, a curated list of programs, libraries and tools that run on Spinel
 markdown: kramdown
 kramdown:
   input: GFM
@@ -9,6 +22,8 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-default-layout
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - LICENSE
   - CONTRIBUTING.md

@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Awesome Spinel
+
+> {{ site.description }}
+
+Spinel (https://github.com/matz/spinel) is Matz's ahead-of-time compiler for a subset of Ruby. This list collects projects that compile with it today: games and emulators, web frameworks and servers, command-line tools, gems ported to Spinel, developer tooling and experiments. It is maintained by its author, not by the Spinel maintainers.
+
+## Docs
+
+- [Full list as Markdown]({{ site.url }}{{ site.baseurl }}/llms-full.txt): every project with its link and a one-line description, grouped by section
+- [Repository](https://github.com/aristotelesbr/awesome-spinel): source of the list; additions come as pull requests
+- [How to add a project](https://github.com/aristotelesbr/awesome-spinel/blob/main/CONTRIBUTING.md)
+
+## Optional
+
+- [Spinel](https://github.com/matz/spinel): the compiler, its documentation and the spin package manager
+- [spin-index](https://github.com/matz/spin-index): the package index spin resolves against
