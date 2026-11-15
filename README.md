@@ -1,8 +1,21 @@
-# Awesome Spinel
+<h1 align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/title-dark.svg">
+<img src="assets/title-light.svg" alt="Awesome Spinel" width="480">
+</picture>
+</h1>
 
-A curated list of programs, libraries and tools that run on [Spinel](https://github.com/matz/spinel), the ahead-of-time Ruby compiler that turns Ruby source into a single native binary (or WebAssembly).
+<p align="center"><i>A curated list of programs, libraries and tools that run on <a href="https://github.com/matz/spinel">Spinel</a>, the ahead-of-time Ruby compiler</i></p>
 
-If you build something with Spinel, [add it](https://github.com/aristotelesbr/awesome-spinel/blob/main/CONTRIBUTING.md).
+<p align="center">🌐 <b><a href="https://aristotelesbr.github.io/awesome-spinel/">aristotelesbr.github.io/awesome-spinel</a></b></p>
+
+<p align="center">
+<sup>
+<a href="https://github.com/matz/spinel">[Spinel]</a> |
+<a href="https://github.com/aristotelesbr/awesome-spinel/blob/main/CONTRIBUTING.md">[Submit an Addition]</a> |
+<a href="#showcase">[Showcase]</a>
+</sup>
+</p>
 
 ## Contents
 
